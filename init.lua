@@ -284,6 +284,6 @@ minetest.register_chatcommand("emerge_map", {
         local minp = vector.new(-500,-30,-500)
         local maxp = vector.new(500, 50, 500)
         minetest.emerge_area(minp, maxp)
-        minetest.chat_send_player(name, "Adventure map emerged! Have fun creating!")
+        minetest.chat_send_player(name, "MisterE's Adventure map is emerging! Have fun creating! Try using worldedit additions with bonemeal mods to create forests, and the terraform mod to edit the landscape.")
     end
 })
